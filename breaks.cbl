@@ -257,9 +257,6 @@
 025700     PERFORM 530-CAL-SETUP                                        02570090
 025800     .                                                            02580072
 025900                                                                  02590072
-026000*  ALL DEPARTMENT TOTAL CODE SHOULD BE IN ONE PARAGRAPH!          02600095
-026100*  ALL DIVISION TOTAL CODE SHOULD BE IN ONE PARAGRAPH!            02610095
-026200*  SEE EXAMPLE PARAGRAPH IN NOTES!                                02620095
 026300 510-DIV-CHANGE.                                                  02630072
 026400     PERFORM 520-DEPT-CHANGE                                      02640091
 026500     ADD DT-HR-USED TO FT-HR-USED                                 02650092
