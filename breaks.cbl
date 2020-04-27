@@ -355,7 +355,6 @@
 035800     .                                                            03580012
 035900                                                                  03590042
 036000 900-PRINT-FINAL-TOTALS.                                          03600060
-036100*    PERFORM 520-DEPT-CHANGE                                      03610094
 036200     PERFORM 510-DIV-CHANGE                                       03620093
 036300     MOVE '***' TO PR-AST                                         03630060
 036400     MOVE FT-HR-USED TO PR-HOURS-WORKED                           03640060
